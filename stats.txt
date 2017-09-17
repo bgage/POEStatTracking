@@ -1,0 +1,30 @@
+[Base]
+class = Shadow
+name = sh
+
+[Attributes]
+strength = 14
+intelligence = 23
+dexterity = 23
+
+[OffensiveStats]
+damagepersecond = 0
+attackspersecond = 0
+accuracy = 0%
+criticalstrikechance = 0%
+criticalstrikemultiplier = 0%
+stunduration = 0
+stunchance = 0%
+stunthresholdreduction = 0%
+
+[DefensiveStats]
+evasionrating = 0
+armourrating = 0
+energyshield = 0
+coldresistance = 0%
+fireresistance = 0%
+lightingresistance = 0%
+chaosresistance = 0%
+blockattacks = 0%
+blockspells = 0%
+
