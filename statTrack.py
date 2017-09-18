@@ -10,7 +10,9 @@ classChoices = {1: 'Marauder',
 		4: 'Duelist',
 		5: 'Templar',
 		6: 'Shadow',
-		7: 'Scion}
+		7: 'Scion
+	       }
+
 while classSelected == 0:
 	classInput = input("Select a number 1 Marauder 2 Ranger 3 Witch 4 Duelist 5 Templar 6 Shadow 7 Scion ")
 	if (int)classInput in range(1,8):
