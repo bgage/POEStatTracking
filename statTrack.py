@@ -14,10 +14,13 @@ classChoices = {1: 'Marauder',
 	       }
 
 while classSelected == 0:
-	classInput = input("Select a number 1 Marauder 2 Ranger 3 Witch 4 Duelist 5 Templar 6 Shadow 7 Scion ")
-	if (int)classInput in range(1,8):
-		cl = classChoices[classInput]
-		classSelected = 1
+    try:
+        classInput = input("Select a number 1 Marauder 2 Ranger 3 Witch 4 Duelist 5 Templar 6 Shadow 7 Scion ")
+        if int(classInput) in range(1,8):
+            cl = classChoices[int(classInput)]
+            classSelected = 1
+    except (KeyError, ValueError):
+        print("Invaild Input")
 
 stats['Base']['class'] = cl
 for atb in classes[cl]:
