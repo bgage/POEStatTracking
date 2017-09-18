@@ -10,7 +10,7 @@ classChoices = {1: 'Marauder',
 		4: 'Duelist',
 		5: 'Templar',
 		6: 'Shadow',
-		7: 'Scion
+		7: 'Scion'
 	       }
 
 while classSelected == 0:
